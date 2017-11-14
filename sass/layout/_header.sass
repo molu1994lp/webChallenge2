@@ -1,0 +1,36 @@
+.header
+    position: relative
+    width: 100%
+    .arrow-wraper
+        position: absolute
+        bottom: 5%
+        left: 50%
+        border: .5px solid black
+        border-radius: 45%
+        padding: 1.4% .4%
+        overflow: hidden
+    .arrow-wraper:hover
+        cursor: pointer
+    .text-wrapper
+        position: absolute
+        top:      36%
+        left:     11.2%
+.header .arrow-wraper .bounce      
+    position: relative
+    font-size: 20px
+    font-weight: $font-black
+    animation: bounce 1.5s linear infinite
+          
+
+    
+@keyframes bounce
+    0%, 100%
+        transform: translateY(0)
+    50%
+        transform: translateY(150%)
+    51%
+        transform: translateY(-150%)
+
+
+    
+  
